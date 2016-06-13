@@ -7,7 +7,7 @@ layout: doc.html
 # התקנת תעודות אבטחה
 
 
-## התקנה במחשב וינדוס - windows
+## התקנה במחשב וינדוס - Windows
 
 הורד את הסקריפט 
 [מפה](/pages/dl/install_cert.bat )
