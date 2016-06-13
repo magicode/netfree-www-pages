@@ -9,10 +9,10 @@ layout: doc.html
 
 ## התקנה במחשב וינדוס - windows
 
-הורד את התעודה מהלינק הזה.
-http://netfree.link/netfree-ca.crt
+הורד את הסקריפט 
+[מפה](/pages/dl/install_cert.bat )
 
-והתקן את זה במחשב.
+והפעל אותו.
 
 ## התקנה במחשב אבונטו - Ubuntu
 
@@ -23,3 +23,9 @@ http://netfree.link/netfree-ca.crt
 
 ```
 
+## מיקום התעודה
+
+מיקום התעודה של הספק הנוכחי בנטפרי נמצא בלינק הזה
+http://netfree.link/netfree-ca.crt
+
+הלינק יהיה פעיל רק באינטרנט של נטפרי.
