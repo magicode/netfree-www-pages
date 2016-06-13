@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>NETFREE - נטפרי - My Third Post </title>
-    <meta name="description" content="">
+    <title>{{ mainTitle }}{{#if title}} - {{ title }} {{/if}}</title>
+    <meta name="description" content="{{ description }}">
     <link rel="stylesheet" href="/pages/css/github-markdown.css" type="text/css" />
     <style type="text/css">
     
@@ -64,13 +64,12 @@
     
     <section class="container">
         <!--
-        <h1>My Third Post</h1>
-        <time>28-09-2012</time>
+        <h1>{{ title }}</h1>
+        <time>{{ formatDate date 'DD-MM-YYYY' }}</time>
         -->
         
         <div class="markd markdown-body">
-            <p>A slightly late, less interesting piece of prose.</p>
- 
+            {{{ contents }}} 
         </div>
         
     </section>

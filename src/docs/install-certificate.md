@@ -1,7 +1,6 @@
 ---
 title: התקנת תעודת אבטחה
-date: 2016-06-13
-layout: post.html
+layout: doc.html
 ---
 
 

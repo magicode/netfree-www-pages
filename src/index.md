@@ -1,7 +1,7 @@
 ---
-layout: post.html
+layout: doc.html
 ---
 
-<a href="docs/"> 
+<a href="docs"> 
     הדרכות
 </a>

@@ -1,7 +1,7 @@
 ---
-layout: post.html
+layout: doc.html
 ---
 
-<a href="install-certificate/"> 
+<a href="install-certificate"> 
     התקנת תעודת אבטחה
 </a>
