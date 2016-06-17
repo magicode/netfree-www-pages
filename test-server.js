@@ -7,4 +7,4 @@ var app = express();
 app.use("/pages/", express.static(path.join(__dirname, 'build')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000);
