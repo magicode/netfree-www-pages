@@ -20,6 +20,7 @@ if '%errorlevel%' NEQ '0' (
 ) else ( goto gotAdmin )
 
 :UACPrompt
+	powershell -command "Start-Sleep -s 1"
     echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
     set params = %*:"=""
     echo UAC.ShellExecute "cmd.exe", "/c ""%~s0"" %params%", "", "runas", 1 >> "%temp%\getadmin.vbs"
@@ -35,6 +36,9 @@ if '%errorlevel%' NEQ '0' (
     
     find /c "BEGIN CERTIFICATE" netfree-ca.crt  && (
     	certutil -addstore "Root" netfree-ca.crt
+		echo Done!
     )
+	del netfree-ca.crt
+	
+	pause > nul
     
-    del netfree-ca.crt
